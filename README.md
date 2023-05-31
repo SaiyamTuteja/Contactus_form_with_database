@@ -1,4 +1,5 @@
-# Basic-Contact-Form-using-django-APPARKY
+# Basic-Contact-Form-using-django
+
 
 > In This Project we will create a functional ContactUs Page using [`Django FrameWork`](https://www.djangoproject.com/)
 > 
