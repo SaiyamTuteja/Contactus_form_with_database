@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+  {% for data in contactus %}
+  <article class="media content-section">
+    <div class="media-body">
+      <div class="article-metadata">
+        <a class="mr-2" href="#">{{ contact.name }}</a>
+        <small class="text-muted">{{ demo.demo_date|date:"M d, Y" }}</small>
+      </div>
+      <h2><a class="article-title" href="#">{{ data.subject }}</a></h2>
+      <p class="article-content">{{ data.message }}</p>
+      <p>{{ demo.demo_pic }}</p>
+      <img src="/media/{{ 'demo.demo_pic' }}" alt="">
+    </div>
+  </article>
+  {% endfor %}
+{% endblock content %}
